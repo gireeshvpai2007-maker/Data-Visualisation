@@ -18,25 +18,33 @@ The projects demonstrate data preprocessing, exploratory data analysis (EDA), an
 - Scikit-learn (where required)
 
 ---
-
 ## 📂 Repository Structure
 
+```text
+Data-Visualisation/
+│
+├── Emotion Analysis/
+│   ├── dataset/
+│   │   └── emotion.csv
+│   ├── image/
+│   │   ├── Emotion Distribution.png
+│   │   └── WordCloud of Emotions.png
+│   └── notebook/
+│       └── Emotion.ipynb
+│
+├── Online Learning Engagement Analysis/
+│   ├── datasets/
+│   │   └── dproject.csv
+│   ├── images/
+│   │   ├── correlation heatmap.png
+│   │   ├── Distribution of Numerical Features.png
+│   │   └── Feature Influence On Final Grade.png
+│   └── notebooks/
+│       └── dproject.ipynb
+│
+├── README.md
+└── requirements.txt
 ```
-Data-Visualization/
-
-│── notebooks/
-│   ├── Emotion.ipynb
-│   ├── dproject.ipynb
-│
-│── datasets/
-│
-│── images/
-│
-│── README.md
-│── requirements.txt
-```
-
----
 
 ## 📌 Projects Included
 
@@ -51,7 +59,7 @@ Data-Visualization/
 
 ---
 
-### 2️⃣ Data Visualization Project
+### 2️⃣ Online Learning Engagement Analysis Project
 
 Includes:
 
