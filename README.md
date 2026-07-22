@@ -1,24 +1,51 @@
-# 📊 Data Visualization using Python
+<h1 align="center">📊 Data Visualization using Python</h1>
 
-This repository contains my Data Visualization projects developed using **Python** and **Jupyter Notebook**.
+<p align="center">
 
-The projects demonstrate data preprocessing, exploratory data analysis (EDA), and visualization techniques using real-world datasets.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-5B8FA8?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+</p>
+
+<p align="center">
+A collection of Exploratory Data Analysis (EDA) and Data Visualization projects built using Python and Jupyter Notebook.
+</p>
 
 ---
 
-## 🚀 Technologies Used
+# 📖 Overview
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- WordCloud
-- Scikit-learn (where required)
+This repository showcases **two end-to-end Exploratory Data Analysis (EDA) projects** developed using **Python** and **Jupyter Notebook**. Each project demonstrates the complete data analysis workflow, including:
+
+- 📂 Data Loading
+- 🧹 Data Cleaning & Preprocessing
+- 🔍 Exploratory Data Analysis (EDA)
+- 📊 Data Visualization
+- 📈 Statistical Analysis
+- 💡 Insight Extraction
+
+The projects use real-world datasets to uncover meaningful patterns through visualization and analysis.
 
 ---
-## 📂 Repository Structure
+
+# 🚀 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Language | Python |
+| Environment | Jupyter Notebook |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, WordCloud |
+| Machine Learning | Scikit-learn *(where applicable)* |
+
+---
+
+# 📂 Repository Structure
 
 ```text
 Data-Visualisation/
@@ -27,121 +54,181 @@ Data-Visualisation/
 │   ├── dataset/
 │   │   └── emotion.csv
 │   ├── image/
-│   │   ├── Emotion Distribution.png
-│   │   └── WordCloud of Emotions.png
+│   │   ├── emotion_distribution.png
+│   │   └── wordcloud.png
 │   └── notebook/
 │       └── Emotion.ipynb
 │
 ├── Online Learning Engagement Analysis/
-│   ├── datasets/
+│   ├── dataset/
 │   │   └── dproject.csv
-│   ├── images/
-│   │   ├── correlation heatmap.png
-│   │   ├── Distribution of Numerical Features.png
-│   │   └── Feature Influence On Final Grade.png
-│   └── notebooks/
+│   ├── image/
+│   │   ├── correlation_heatmap.png
+│   │   ├── distribution_of_numerical_features.png
+│   │   └── feature_influence_on_final_grade.png
+│   └── notebook/
 │       └── dproject.ipynb
 │
 ├── README.md
 └── requirements.txt
 ```
 
-## 📌 Projects Included
+---
 
-### 1️⃣ Emotion Analysis
-
-- Dataset preprocessing
-- Missing value analysis
-- Data exploration
-- Emotion distribution
-- Word Cloud generation
-- Visualization of textual data
+# 📊 Projects
 
 ---
 
-### 2️⃣ Online Learning Engagement Analysis Project
+## 📈 Emotion Analysis
 
-Includes:
+### 🎯 Objective
+
+Perform Exploratory Data Analysis (EDA) on an emotion dataset to understand the distribution of different emotions through statistical visualization techniques.
+
+### ✨ Features
+
+- Dataset Exploration
+- Data Cleaning
+- Missing Value Analysis
+- Emotion Distribution Analysis
+- Word Cloud Generation
+- Basic Statistical Insights
+
+### 📊 Visualizations
+
+- Emotion Distribution
+- Word Cloud
+
+---
+
+## 🎓 Online Learning Engagement Analysis
+
+### 🎯 Objective
+
+Analyze online learning engagement data to identify trends and factors that influence student performance.
+
+### ✨ Features
 
 - Data Cleaning
 - Exploratory Data Analysis
 - Statistical Summary
-- Graphical Analysis
-- Insights from the dataset
+- Correlation Analysis
+- Feature Relationship Analysis
+- Data Visualization
+
+### 📊 Visualizations
+
+- Correlation Heatmap
+- Distribution of Numerical Features
+- Feature Influence on Final Grade
 
 ---
 
-## 📈 Visualizations Used
+# 📈 Visualization Techniques Used
 
-- Word Cloud
-- Histogram
-- Count Plot
-- Bar Graph
-- Pie Chart
-- Heatmap
-- Box Plot
-- Correlation Matrix
-- Scatter Plot
+- 📊 Bar Charts
+- 📉 Histograms
+- 📦 Box Plots
+- 🥧 Pie Charts
+- 📍 Scatter Plots
+- 🔥 Correlation Heatmaps
+- ☁️ Word Clouds
+- 📈 Count Plots
 
 ---
 
-## ▶️ How to Run
+# 💡 Key Learning Outcomes
 
-Clone the repository
+These projects strengthened my understanding of:
 
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Statistical Interpretation
+- Correlation Analysis
+- Feature Engineering Basics
+- Insight Extraction from Real-world Datasets
+- Python Data Science Ecosystem
+
+---
+
+# ▶️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/gireeshvpai2007-maker/Data-Visualisation.git
 ```
-git clone <repository-link>
+
+### Navigate to the project
+
+```bash
+cd Data-Visualisation
 ```
 
-Install dependencies
+### Install the dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-Open Jupyter Notebook
+### Launch Jupyter Notebook
 
-```
+```bash
 jupyter notebook
 ```
 
-Run the notebook of your choice.
+Open any notebook inside the project folders and execute all cells.
 
 ---
 
-## 📚 Libraries Used
+# 📚 Libraries Used
 
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - wordcloud
+- scikit-learn
 
 ---
 
-## 🎯 Learning Objectives
+# 🎯 Learning Objectives
 
 - Data Cleaning
 - Data Transformation
 - Exploratory Data Analysis
 - Data Visualization
-- Extracting meaningful insights from datasets
+- Statistical Analysis
+- Extracting Meaningful Insights
+- Working with Real-world Datasets
 
 ---
 
-## 📌 Future Improvements
+# 🚀 Future Improvements
 
-- Interactive dashboards
-- Plotly visualizations
-- Machine Learning integration
-- Streamlit deployment
+- Interactive dashboards using Plotly
+- Streamlit Deployment
+- Machine Learning Integration
+- Interactive Visualizations
+- Additional EDA Case Studies
+- Automated Data Analysis Pipeline
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Gireesh V Pai**
+## **Gireesh V Pai**
 
-B.Tech Computer Science Engineering
+**B.Tech Computer Science Engineering**
 
-MIT Manipal
+**Manipal Institute of Technology (MIT), Manipal**
+
+---
+
+## ⭐ Support
+
+If you found this repository useful or interesting, consider giving it a **⭐ Star**.
+
+It motivates me to continue building and sharing more projects.
+
