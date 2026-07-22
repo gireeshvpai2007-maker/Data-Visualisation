@@ -124,6 +124,34 @@ Analyze online learning engagement data to identify trends and factors that infl
 
 ---
 
+# 📷 Project Gallery
+
+## 📈 Emotion Analysis
+
+### Emotion Distribution
+
+![Emotion Distribution](Emotion%20Analysis/image/emotion_distribution.png)
+
+### Word Cloud
+
+![Word Cloud](Emotion%20Analysis/image/wordcloud.png)
+
+---
+
+## 🎓 Online Learning Engagement Analysis
+
+### Correlation Heatmap
+
+![Correlation Heatmap](Online%20Learning%20Engagement%20Analysis/image/correlation%20heatmap.png)
+
+### Distribution of Numerical Features
+
+![Distribution of Numerical Features](Online%20Learning%20Engagement%20Analysis/image/Distribution%20of%20Numerical%20Features.png)
+
+### Feature Influence on Final Grade
+
+![Feature Influence](Online%20Learning%20Engagement%20Analysis/image/Feature%20Influence%20On%20Final%20Grade.png)
+
 # 📈 Visualization Techniques Used
 
 - 📊 Bar Charts
